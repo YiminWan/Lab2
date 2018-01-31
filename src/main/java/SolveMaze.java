@@ -43,6 +43,7 @@ public class SolveMaze {
                 maze.move();
 
             }
+        }
 
 
             if (maze.isFinished()) {
@@ -51,4 +52,5 @@ public class SolveMaze {
                 System.out.println("Try again!");
             }
         }
-    }}
+    }
+
